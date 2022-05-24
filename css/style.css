@@ -1,0 +1,289 @@
+#navbar{
+    overflow: auto;
+    padding: 0.70rem;
+}
+#navbar .navbutton{
+    width: 50%;
+    margin-top: 1rem;
+    float: right;
+    text-align: right;
+    text-decoration: none;
+    list-style: none;
+    margin-right: 5rem;
+}
+#navbar .logo{
+    width: 25%;
+    margin: 1rem 8rem;
+    display: inline-block;
+}
+#navbar  .logo h1{
+font-size: 1.25rem;
+line-height: 3.5rem;
+font-family: 'Montserrat', sans-serif;
+color: rgba(0, 0, 0, 0.9);
+font-weight: 700;
+}
+#navbar .navbutton button{
+    color: #fff;
+    background-color: #0d6efd;
+    padding: 0.90rem 1rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: .4s;
+    border: 1px solid #0d6efd;
+    font-family: 'Montserrat', sans-serif;
+}
+#navbar .navbutton button:hover{
+    background-color: #0d6dfde6;
+    border: 1px solid #0d6dfde6;
+}
+#generate{
+    background-image: url(../image/bg-masthead.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 70vh;
+    overflow: auto;
+}
+#generate form{
+margin: auto;
+width: 45%;
+margin-top: 5rem;
+}
+#generate .lefth{
+    float: left;
+    width: 70%;
+    margin-right: 1rem;
+}
+#generate h1{
+    font-size: 3rem;
+    text-align: center;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5rem;
+}
+#generate .lefth input{
+    padding: 1rem 2rem;
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+    outline: none;
+    width: 100%;
+    border: 1px solid #ced4da;
+}
+#generate .right{
+    margin-left: 2rem;
+}
+#generate .right button{
+    padding: 1rem 1.25rem;
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+    color: #fff;
+    background-color: #0d6efd;
+    border: 1px solid #0d6efd;
+}
+#fully{
+    padding: 4rem 0;
+}
+#fully .boxs{
+    width: 100%;
+    padding: 6rem;
+    overflow: auto;
+}
+#fully .boxs .box{
+ width: 32%;
+ float: left;
+ margin-left: 1rem;
+ text-align: center;
+}
+#fully .boxs .box i{
+    font-size: 4.5rem;
+   color: #0D6EFD;
+}
+#fully .boxs .box h3{
+    font-size: 1.75rem;
+    font-family: 'Montserrat', sans-serif;
+    margin: 12px;
+
+}
+#fully .boxs .box p{
+    font-size: 1.35rem;
+    color: rgba(0, 0, 0, 0.489);
+}
+#design .box .left{
+    width: 50%;
+    padding: 7.3rem;
+    float: left;
+    background-color: #F8F9FA;
+}
+#design .box .right{
+    width: 50%;
+    background-image: url(../image/bg-showcase-1.jpg);
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    float: right;
+}
+#design .box .left h2{
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+}
+#design .box .left p{
+    font-size: 1.25rem;
+    text-align: left;
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.486);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#design .box .rightsecond{
+    width: 50%;
+    padding: 7.3rem;
+    float: right;
+    background-color: #F8F9FA;
+}
+#design .box .leftsecond{
+    width: 50%;
+    background-image: url(../image/bg-showcase-2.jpg);
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    float: left;
+}
+#design .box .rightsecond h2{
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+}
+#design .box .rightsecond p{
+    font-size: 1.25rem;
+    text-align: left;
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.486);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#people{
+    padding: 6rem 0;
+}
+#people .top h2{
+    text-align: center;
+    font-size: 2rem;
+    padding: 3rem;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+#people .bottom .boxs{
+padding: 0 4rem;
+overflow: auto;
+}
+#people .bottom .boxs .box{
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+#people .bottom .boxs .box img{
+    width: 35%;
+    border-radius: 50%;
+}
+#people .bottom .boxs .box h5{
+    text-align: center;
+    font-size: 1rem;
+    margin: 10px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+#people .bottom .boxs .box p{
+    text-align: center;
+    font-size: 0.75rem;
+    margin: 10px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+#ready{
+    background-image: url(../image/bg-masthead.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 45vh;
+    overflow: auto;
+}
+#ready form{
+margin: auto;
+width: 50%;
+margin-top: 2rem;
+}
+#ready .lefth{
+    float: left;
+    width: 70%;
+    margin-right: 1rem;
+}
+#ready h1{
+    font-size: 2rem;
+    text-align: center;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5rem;
+}
+#ready .lefth input{
+    padding: 1rem 2rem;
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+    outline: none;
+    width: 100%;
+    border: 1px solid #ced4da;
+}
+#ready .right{
+    margin-left: 2rem;
+}
+#ready .right button{
+    padding: 1rem 1.25rem;
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+    color: #fff;
+    background-color: #0d6efd;
+    border: 1px solid #0d6efd;
+}
+#footer{
+    padding: 2rem 0;
+    overflow: auto;
+}
+#footer .left{
+    float: left;
+}
+#footer .left ul{
+    padding: 2rem 5rem;
+}
+#footer .left ul li{
+    float: left;
+    margin-left: 2rem;
+    font-size: 1.12rem;
+    text-decoration: underline;
+    color: #0d6efd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#footer .left p{
+    margin-left: 7rem;
+    font-size: 1.12rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6c757d;
+    font-size: 0.875em;
+}
+#footer .right{
+    float: right;
+    margin: 1.5rem 2rem;
+}
+#footer .right i{
+    font-size: 1.75rem;
+    margin-left: 1rem;
+    color: #0D6EFD;
+    transition: .4s;
+    cursor: pointer;
+}
+#footer .right i:hover{
+   color: blue;
+}
+
+
+
